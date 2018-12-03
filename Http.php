@@ -31,6 +31,8 @@ class Http
 
     /**
      * Processes response returned by guzzle
+     * @param mixed $response
+     * @param boolean $toArray
      */
     private static function processResponse(ResponseInterface $response, $toArray = true)
     {
